@@ -1,0 +1,17 @@
+{
+  "name": "PHP 8.1 Dev Container",
+  "dockerFile": "Dockerfile",
+  "appPort": [80],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "felixfbecker.php-pack"
+      ],
+      "settings": {
+        "php.validate.executablePath": "/usr/local/bin/php",
+        "php.executablePath": "/usr/local/bin/php"
+      }
+    }
+  },
+  "remoteUser": "www-data"
+}
